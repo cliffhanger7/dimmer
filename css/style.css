@@ -1,0 +1,180 @@
+    @media only screen and (min-width : 320px) {
+
+        .start {
+        height: 200px;
+      }
+
+      h1 {
+         color: white;
+         font-size: 2.5em;
+      }
+
+      .ad-small {
+        display: block;
+      }
+
+      .ad {
+        display: none;
+      }
+
+
+    }
+
+    @media only screen and (min-width : 480px) {
+
+      .start {
+        height: 250px;
+      }
+
+      h1 {
+         color: white;
+         font-size: 3em;
+      }
+
+      .ad-small {
+        display: block;
+      }
+
+      .ad {
+        display: none;
+      }
+
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+      .start {
+        height: 400px;
+      }
+
+      h1 {
+         color: white;
+         font-size: 4em;
+      }
+
+      .ad-small {
+        display: block;
+      }
+
+      .ad {
+        display: none;
+      }
+
+
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+      .start {
+        height: 450px;
+      }
+
+      h1 {
+         color: white;
+         font-size: 5em;
+      }
+
+      .ad-small {
+        display: none;
+      }
+
+      .ad {
+        display: block;
+      }
+
+
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+      .start {
+        height: 500px;
+      }
+
+        h1 {
+         color: white;
+         font-size: 6em;
+      }
+
+      .ad-small {
+        display: none;
+      }
+
+      .ad {
+        display: block;
+      }
+
+    }
+
+
+
+    h1 {
+   color: white;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+
+}
+
+.parallax-window {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/lampa51.svg);
+    background-size: 100%;
+}
+
+.parallax-window-plejd {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/plejd7.jpg);
+    background-size: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 50px;
+    margin-top:75px;
+}
+
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+
+.ad {
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.ad-small {
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
